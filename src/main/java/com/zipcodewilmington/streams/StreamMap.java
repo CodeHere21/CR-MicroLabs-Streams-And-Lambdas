@@ -18,7 +18,7 @@ public class StreamMap {
      * @return - a Stream of single characters
      */ //TODO
     public static Stream<String> letters(String someWord) {
-        return null;
+        return Arrays.stream(someWord.split(""));
     }
 
     /**
@@ -26,6 +26,9 @@ public class StreamMap {
      * @return - a Stream of several Streams of single characters
      */ //TODO
     public static Stream<Stream<String>> wordsMap(String... someWords) {
+
+//        return Arrays.stream(someWords).map(value->);
+
         return null;
     }
 
